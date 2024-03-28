@@ -8,3 +8,11 @@ i = 0
   h[letter.to_sym] = i if /[aeiouy]/ =~ letter
 end
 puts h
+
+# вариант 2
+alphabet = [*('a'..'z')]
+vowels = {}
+
+alphabet.each_with_index { |k, v| vowels[k] = v + 1 if 'aeiou'.include?(k) }
+
+puts vowels
