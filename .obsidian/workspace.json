@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "26d7cfb43270a3eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "8cc54ad2c668d090",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ba0be768abeb129",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kb/Часть 5. Основы ООП в Ruby.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2a1459c40f4cfea7",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae511ad17406b46d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9492c46dda5cac33",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f5e6ad3a5c70c558",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a7a33de32487981b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "86b474307349b78e",
+    "type": "split",
+    "children": [
+      {
+        "id": "88372ae6e89eb94a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4576db037424563",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "kb/Часть 5. Основы ООП в Ruby.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "32fe3c38162dcb79",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "kb/Часть 5. Основы ООП в Ruby.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2dec450727fa7fdd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f1691e4e6029efb2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "kb/Часть 5. Основы ООП в Ruby.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2ba0be768abeb129",
+  "lastOpenFiles": [
+    "kb/README.md"
+  ]
+}
