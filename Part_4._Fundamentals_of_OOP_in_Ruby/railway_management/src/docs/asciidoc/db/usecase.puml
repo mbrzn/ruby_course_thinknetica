@@ -1,0 +1,37 @@
+@startuml
+
+left to right direction
+'top to bottom direction'
+
+actor "Заказчик" as customer 
+actor "Диспетчер" as dispatcher
+actor "Управляющий" as manager
+actor "Техник" as technician
+
+
+rectangle {
+usecase "Настроить\n поезд и пути,\n обеспечить их" as provide
+usecase "Определить критерий\n эффективности" as criterion
+usecase "Сделать заявку" as order
+usecase "Расчитать маршрут" as calculate
+usecase "Заключить договор перевозки" as contract
+usecase "Видеть местонахождение\n груза" as location
+}
+
+customer - order
+customer - contract
+customer - location
+calculate - dispatcher
+contract - dispatcher
+order - dispatcher
+location - dispatcher
+
+technician - provide
+manager - criterion
+technician - criterion
+ 
+
+criterion -[dashed]-> calculate : include
+provide -[dashed]-> calculate : include
+
+@enduml

@@ -1,0 +1,21 @@
+@startuml
+
+left to right direction
+
+class Car{
+  +color:      String
+  +door_title: String
+  +number:     Int
+  +beep()
+}
+
+class Human{
+  +name:      String
+  +cars:     Array
+  +buy_car()
+  +change_door_title()
+}
+
+Car "0..n" <--> "0..n" Human
+
+@enduml
